@@ -16,7 +16,7 @@ http://localhost:3000
 ```
 
 ## Testing
-We use mocha as test runner and chai as asser assertion library.
+We use mocha as test runner and chai as assertion library.
 ```
 mocha --recursive
 ```
