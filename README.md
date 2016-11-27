@@ -2,7 +2,7 @@
 
 ## Initialization
 ```
-npm init
+npm install
 ```
 
 ## Launching server
