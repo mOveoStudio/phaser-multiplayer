@@ -7,7 +7,7 @@ npm init
 
 ## Launching server
 ```
-node dist/server/server.js
+node src/server/server.js
 ```
 
 ## Launching client
