@@ -21,6 +21,8 @@ module.exports = class Server {
 
         this.io.on('connection', (socket) => {
 
+            console.log('new connection : %o', socket);
+
             this.emit(socket, 'message', this.messageWithTime("Bienvenue nouvel arrivant !"));
 
             this.broadcast('message', this.messageWithTime("Nouvel arrivant."));
